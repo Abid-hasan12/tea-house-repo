@@ -24,6 +24,7 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                        'gray-primary':''
                     }
                 }
             }
@@ -42,12 +43,12 @@
         <div class="hero bg-base-200 p-10">
             <div class="hero-content flex-col lg:flex-row">
                 <div class="flex-1">
-                    <h1 class="text-7xl font-extrabold">
+                    <h1 class="text-6xl font-extrabold">
                         It's good <br>
                         tea time at The
                         Tea House
                     </h1>
-                    <p class="py-6">
+                    <p class="py-6 text-gray-500">
                         Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
                     </p>
                     <button class="btn btn-primary">Explore More!</button>
@@ -69,8 +70,8 @@
     <main class="container mx-auto">
         <section class="text-center space-y-10 mt-20">
             <!-- featured section -->
-            <h3 class="text-7xl font-bold">Our Featured Products</h3>
-            <p class="max-w-4xl	mx-auto mb-16 p-3">There are many variations of passages of Lorem Ipsum available, but
+            <h3 class="text-6xl font-bold">Our Featured Products</h3>
+            <p class="max-w-4xl	mx-auto mb-16 p-3 text-gray-500">There are many variations of passages of Lorem Ipsum available, but
                 the
                 majority have suffered alteration
                 in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
@@ -82,7 +83,7 @@
                     </figure>
                     <div class="card-body">
                         <h2 class="text-4xl font-bold">Milk Tea</h2>
-                        <p>Creamer could be replaced by fresh milk</p>
+                        <p class="text-gray-500">Creamer could be replaced by fresh milk</p>
                     </div>
                 </div>
                 <!-- second card -->
@@ -92,7 +93,7 @@
                     </figure>
                     <div class="card-body">
                         <h2 class="text-4xl font-bold">Black Tea</h2>
-                        <p>Creamer could be replaced by fresh milk</p>
+                        <p class="text-gray-500">Creamer could be replaced by fresh milk</p>
                     </div>
                 </div>
                 <!-- third card -->
@@ -102,7 +103,7 @@
                     </figure>
                     <div class="card-body">
                         <h2 class="text-4xl font-bold">Lemon Tea</h2>
-                        <p>Creamer could be replaced by fresh milk</p>
+                        <p class="text-gray-500">Creamer could be replaced by fresh milk</p>
                     </div>
                 </div>
                 <!-- fourth card -->
@@ -112,7 +113,7 @@
                     </figure>
                     <div class="card-body">
                         <h2 class="text-4xl font-bold">Green Tea</h2>
-                        <p>Creamer could be replaced by fresh milk</p>
+                        <p class="text-gray-500">Creamer could be replaced by fresh milk</p>
                     </div>
                 </div>
             </div>
@@ -131,15 +132,14 @@
             </div>
             <div class="flex-1 space-y-8 p-8">
                 <h3 class="text-5xl font-extrabold">Great Tea, Freshly Presented</h3>
-                <p>The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions .
+                <p class="text-gray-500">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions .
                     It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been
                     deeply appreciated by its custoers because of good words of mouth and unique customized service
                     orginated from Taiwan.</p>
                 <h4 class="text-3xl font-extrabold">Unique Taste</h4>
-                <p>A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+                <p class="text-gray-500">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
                 <h4 class="text-3xl font-extrabold">Premium Quality</h4>
-                <p>Premium Quality
-                    Premium Quality that makes tea more elegant and more durable when you use it.</p>
+                <p class="text-gray-500">Premium Quality Premium Quality that makes tea more elegant and more durable when you use it.</p>
             </div>
         </section>
         <!-- super clients section -->
@@ -157,7 +157,7 @@
                         alteration in some form, by injected humour, or randomised words which don't look even slightly
                         believable.
                     </p>
-                    <button class="btn btn-primary text-white font-bold">SHow All</button>
+                    <button class="btn btn-primary text-white font-bold">Show All</button>
                 </div>
             </div>
             <!-- rivew container -->
@@ -190,13 +190,76 @@
                 <!-- previous rivew -->
                 <div class="relative z-0 lg:w-[490px] opacity-40 bg-white p-10 rounded-xl space-y-4 flex-1">
                     <img class="absolute -left-4 -top-4 border-4 rounded-full bg-white" src="images/client.png" alt="">
-                    <p>We are providing the best and suitable home insurance services for the people who are interested
-                        to
-                        treatment</p>
+                    <p class="text-gray-500">We are providing the best and suitable home insurance services for the people who are interested
+                    to treatment</p>
                     <h4 class="text-4xl font-medium">Ilham Yuda</h4>
                     <div class="flex justify-between">
                         <p class="font-bold">Businessman</p>
                         <img src="images/circles.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- new event section -->
+        <section class="container mx-auto my-24 space-y-3">
+            <h3 class="text-5xl font-bold text-center">News & Events</h3>
+            <div class="flex justify-center py-5">
+                <p class="text-center text-gray-500 mt-4 lg:w-[900px]">There are many variations of passages of Lorem
+                    Ipsum available,
+                    but the majority have suffered alteration
+                    in some form, by injected humour, or randomised words which don't look even slightly believable.
+                </p>
+            </div>
+            <!-- news card container -->
+            <div class="flex justify-center">
+                <div class="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                    <!-- first card -->
+                    <div class="card bg-base-100 w-96 shadow-xl border-2">
+                        <figure class="mt-2">
+                            <img src="images/news-1.png" alt="Shoes" />
+                        </figure>
+                        <div class="card-body">
+                            <p class="text-gray-500">Dec 28, 2024</p>
+                            <h2 class="card-title">
+                                Collecting 8 points for
+                                <br>
+                                discount
+                            </h2>
+                            <p class="text-gray-500">There are many variations of passages of Lorem Ipsum available.</p>
+                            <button class="btn btn-gost">Learn More</button>
+                        </div>
+                    </div>
+                    <!-- second card -->
+                    <div class="card bg-base-100 w-96 shadow-xl border-2">
+                        <figure class="mt-2">
+                            <img src="images/news-2.png" alt="Shoes" />
+                        </figure>
+                        <div class="card-body">
+                            <p class="text-gray-500">Dec 28, 2024</p>
+                            <h2 class="card-title">
+                                Collecting 8 points for
+                                <br>
+                                discount
+                            </h2>
+                            <p class="text-gray-500">There are many variations of passages of Lorem Ipsum available.</p>
+                            <button class="btn btn-gost">Learn More</button>
+                        </div>
+                    </div>
+                    <!-- third card -->
+                    <div class="card bg-base-100 w-96 shadow-xl border-2">
+                        <figure class="mt-2">
+                            <img src="images/news-3.png" alt="Shoes" />
+                        </figure>
+                        <div class="card-body">
+                            <p class="text-gray-500">Dec 28, 2024</p>
+                            <h2 class="card-title">
+                                Collecting 8 points for
+                                <br>
+                                discount
+                            </h2>
+                            <p class="text-gray-500">There are many variations of passages of Lorem Ipsum available.</p>
+                            <button class="btn btn-gost">Learn More</button>
+                        </div>
                     </div>
                 </div>
             </div>
